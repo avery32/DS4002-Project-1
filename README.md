@@ -1,6 +1,5 @@
 # Project 1: Hate Speech Identification 
-## Repository Contents:
-● Make an H2 (##) section explaining the contents of the repository 
+
 ## Section 1: Softwares and Platform 
 The software used to complete this project was google colab. We utilized Python, specifically mainly Pandas and NumPy. For the add on packages we imported 're', 'matplotlib', 'seaborn', 'collections' 'sklearn' packages, 'wordcloud',  and 'nltk'. The platforms used were Windows and Mac.  
 ○ The type(s) of software you used for the project. 
