@@ -1,0 +1,35 @@
+{
+  "test_accuracy": 0.9691358024691358,
+  "test_macro_f1": 0.8113736453683246,
+  "test_micro_f1": 0.9691358024691358,
+  "test_weighted_f1": 0.9696547613281918,
+  "test_macro_precision": 0.8045740207504913,
+  "test_macro_recall": 0.8200255052562163,
+  "eval_metrics_from_trainer_on_test": {
+    "eval_loss": 0.08186789602041245,
+    "eval_accuracy": 0.9691358024691358,
+    "eval_macro_f1": 0.8113736453683246,
+    "eval_micro_f1": 0.9691358024691358,
+    "eval_weighted_f1": 0.9696547613281918,
+    "eval_macro_precision": 0.8045740207504913,
+    "eval_macro_recall": 0.8200255052562163,
+    "eval_runtime": 1.4761,
+    "eval_samples_per_second": 1097.457,
+    "eval_steps_per_second": 69.099,
+    "epoch": 4.0
+  },
+  "class_weights_train": {
+    "0": 1.0,
+    "1": 1.0,
+    "2": 1.0
+  },
+  "model_name": "roberta-base",
+  "epochs": 4,
+  "batch_size": 16,
+  "lr": 2e-05,
+  "max_length": 128,
+  "seed": 42,
+  "oversample": true,
+  "use_focal_loss": true,
+  "focal_gamma": 2.0
+}

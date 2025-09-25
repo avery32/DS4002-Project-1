@@ -1,0 +1,9 @@
+{
+  "clf__C": 10.0,
+  "tfidf__max_df": 0.9,
+  "tfidf__min_df": 2,
+  "tfidf__ngram_range": [
+    1,
+    2
+  ]
+}
