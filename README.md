@@ -1,10 +1,43 @@
 # Project 1: Hate Speech Identification 
 
 ## Section 1: Softwares and Platform 
-The software used to complete this project was a google colab notebook. We utilized Python, specifically mainly Pandas and NumPy. For the add on packages we imported 're', 'matplotlib', 'seaborn', 'collections' 'sklearn' packages, and 'nltk'. The platforms used were Windows and Mac.  
-○ The type(s) of software you used for the project. 
-○ The names of any add-on packages that need to be installed with the software. 
-○ The platform (e.g., Windows, Mac, or Linux) you used. 
+The software used to complete this project was a google colab notebook. We utilized Python, specifically mainly Pandas and NumPy and the platforms used were Windows and Mac.  
+The imports and libraries used:
+
+## Setup: Required Libraries
+
+Before running the notebook, make sure the following libraries are installed and imported:
+
+```python
+# General utilities
+import re
+import pandas as pd
+import numpy as np
+
+# Visualization
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+# Data structures
+from collections import Counter
+
+# Scikit-learn
+from sklearn.feature_extraction.text import TfidfVectorizer, ENGLISH_STOP_WORDS
+from sklearn.linear_model import LogisticRegression
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import (
+    classification_report,
+    confusion_matrix,
+    accuracy_score
+)
+
+# NLP
+import nltk
+from nltk.sentiment import SentimentIntensityAnalyzer
+
+# Deep learning
+import torch
+
 ## Section 2: Documentation Mapping 
 In this section, you should provide an outline or tree illustrating the hierarchy of folders and subfolders contained in your Project Folder, and listing the files stored in each folder or subfolder.
 
