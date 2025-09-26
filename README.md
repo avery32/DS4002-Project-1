@@ -37,7 +37,37 @@ import torch
 
 ## Section 2: Documentation Mapping 
 In this section, you should provide an outline or tree illustrating the hierarchy of folders and subfolders contained in your Project Folder, and listing the files stored in each folder or subfolder.
-
+```
+DS4002-Project-1/
+├─ DATA/                          # Data inputs & intermediate outputs
+│  ├─ (add) labeled_data.csv      # Raw CrowdFlower dataset (not tracked)
+│  └─ processed/                  # Created by 01_preprocess.py
+│     └─ labeled_data_clean.csv   # Cleaned dataset (script output)
+│
+├─ OUTPUT/                        # Baseline (Logistic Regression) artifacts
+│  ├─ confusion_matrix_logistic.png
+│  ├─ logistic_best_params.json
+│  ├─ logistic_classification_report.txt
+│  ├─ logistic_metrics.json
+│  └─ model_logistic.joblib
+│
+├─ OUTPUT_TRANSFORMER/            # Transformer (BERT/RoBERTa) artifacts
+│  ├─ confusion_matrix_transformer.png
+│  ├─ transformer_classification_report.txt
+│  ├─ transformer_metrics.json
+│  ├─ trainer/                    # Training logs/state
+│  └─ model/                      # Saved model + tokenizer
+│
+├─ SCRIPTS/                       # Reproducible pipeline scripts
+│  ├─ 01_preprocess.py            # Cleans & filters the raw data
+│  ├─ 02_model_logistic.py        # Trains/evaluates Logistic Regression baseline
+│  └─ 03_model_transformer.py     # Trains/evaluates Transformer model
+│
+├─ .gitignore                     # Ignores data/artifacts as needed
+├─ LICENSE                        # MIT license
+├─ README.md                      # Project documentation
+└─ requirements.txt               # Python dependencies
+```
 ## Section 3: Instructions 
 
 **Assumptions:**  
