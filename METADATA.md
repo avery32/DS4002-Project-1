@@ -6,4 +6,7 @@ This dataset stems from a research project into automated hate speech detection 
 This dataset is licensed under the MIT license, which allows it to be freely used by others and for projects like ours. This license further allows us to modify and merge the data for our purposes. 
 **Ethical Statements:**
 Please note that there is a layer of hate speech identification that is subjective. The line between offensive and hate speech is not always clearly drawn. To combat this, we used only data points where all Crowdflower users agreed on a classification for a tweet in order to help mitigate discrepencies. 
-**Data Dictionary**
+**Data Dictionary**  
+![Data dictionary image](Data%20Dictionary.png)  
+**EDA Plots**  
+
