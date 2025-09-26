@@ -33,8 +33,7 @@ from nltk.sentiment import SentimentIntensityAnalyzer
 
 # Deep learning
 import torch
-
-
+```
 
 ## Section 2: Documentation Mapping 
 In this section, you should provide an outline or tree illustrating the hierarchy of folders and subfolders contained in your Project Folder, and listing the files stored in each folder or subfolder.
