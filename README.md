@@ -3,6 +3,37 @@
 ## Section 1: Softwares and Platform 
 The software used to complete this project was a google colab notebook. We utilized Python, specifically mainly Pandas and NumPy and the platforms used were Windows and Mac.  
 The imports and libraries used:
+## Software and Platform
+
+This project used Python programming through Jupyter Notebook (Google Colab/Windows platform).
+
+Required imports and libraries:
+
+```python
+import re
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+from collections import Counter
+
+# Scikit-learn
+from sklearn.feature_extraction.text import TfidfVectorizer, ENGLISH_STOP_WORDS
+from sklearn.linear_model import LogisticRegression
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import (
+    classification_report,
+    confusion_matrix,
+    accuracy_score
+)
+
+# NLP
+import nltk
+from nltk.sentiment import SentimentIntensityAnalyzer
+
+# Deep learning
+import torch
+
 
 
 ## Section 2: Documentation Mapping 
